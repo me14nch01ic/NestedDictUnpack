@@ -10,5 +10,7 @@ Dictionary = {'A': 1, 'B_C': 3, 'B_D_E': 5, 'B_D_F': 6}
 
 Setup:
 `pip install git+https://github.com/me14nch01ic/NestedDictUnpack`
-in your projects use 
-from util.NestedDictUnpack import unpack
+in your projects use: 
+`import NestedDictUnpack as ndu
+ndu.unpack(dict)`
+
