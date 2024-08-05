@@ -1,3 +1,3 @@
-from NestedDictUnpack import core
+from .core import unpack
 
-__all__ = ["core"]
+__all__ = ["unpack"]
